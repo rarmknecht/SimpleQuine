@@ -1,0 +1,9 @@
+print("#!/usr/bin/python\n\nd=[", end="")
+s=""
+for n in d:
+	s+="%d," % n
+print(s[:-1],end="")
+print("]\n",end="")
+
+for c in d:
+	print("%c" % c, end="")
